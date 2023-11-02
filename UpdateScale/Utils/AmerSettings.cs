@@ -411,7 +411,7 @@ namespace Alamer_Reporting2.Utils
 
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("172.16.2.1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("172.16.1.3")]
         public string DynamicsServer
         {
             get
