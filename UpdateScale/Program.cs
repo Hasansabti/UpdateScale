@@ -25,7 +25,7 @@ namespace UpdateScale
             String query = "";
             string store = config.Read("store");
             string company = config.Read("company");
-            string storegroups = config.Read("storegroups");
+            string storegroups = "'"+config.Read("storegroups")+"'";
             /*
             if (store == "SP01")
             {
